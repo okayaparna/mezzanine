@@ -1,0 +1,55 @@
+/* font-family: 'Gasoek One', sans-serif;
+font-family: 'Bagel Fat One', cursive; */
+
+:root{
+    --white: #ffffff; 
+    --black: black;
+    --yellow: #FFE500;
+}
+
+body{
+    background-image: url(tile-one.png);
+    z-index: -100;
+    background-repeat: repeat; 
+  background-size: cover;
+}
+
+header{
+   display: flex;
+    justify-content: center; 
+font-family: 'Bagel Fat One', cursive;
+font-size: 250px;
+ 
+    color: var(--white);
+    -webkit-text-stroke: 5.5px black; 
+    letter-spacing: -0.03em;
+
+    z-index: 10;
+}
+
+header:hover{
+
+    color: var(--black);
+    -webkit-text-stroke: 5.5px yellow; 
+    letter-spacing: -0.03em;
+    transition: 0.5s;
+
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+ 
+}
+.push{
+    position: absolute;
+width: 200px;
+height: 200px;
+/* left: 703px; */
+top: 262px;
+
+background-image: url(push.png);
+background-size: cover;
+background-color: #ffffff00;
+border-style: none;
+}
