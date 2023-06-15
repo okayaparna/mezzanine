@@ -1,5 +1,7 @@
-/* font-family: 'Gasoek One', sans-serif;
-font-family: 'Bagel Fat One', cursive; */
+/* 
+font-family: 'Bagel Fat One', cursive;
+ font-family: 'Coolvetica', sans-serif;
+ */
 
 :root{
     --white: #ffffff; 
@@ -72,4 +74,30 @@ border-style: none;
 .push{
     color:rgba(255, 255, 255, 0);
     z-index: 300;
+}
+
+#keep-style{
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 50px;
+    border-radius: 100px;
+    padding: 5%;
+                                                
+}
+
+#throw-style{
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 50px;
+    border-radius: 100px;
+    padding: 5%;
+    background-color: #aeff0095;                                          
+}
+.options{
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 10%;
+}
+
+#options-wrapper{
+    margin-top: -10%;
 }
