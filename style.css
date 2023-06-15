@@ -5,6 +5,7 @@ font-family: 'Bagel Fat One', cursive; */
     --white: #ffffff; 
     --black: black;
     --yellow: #FFE500;
+    --pink: #FF00B8;
 }
 
 body{
@@ -47,10 +48,10 @@ header{
 
 header:hover{
 
-    color: var(--black);
-    -webkit-text-stroke: 5.5px yellow; 
+    color: var(--pink);
+    -webkit-text-stroke: 5.5px var(--white); 
     letter-spacing: -0.03em;
-    transition: 0.5s;
+    transition: 1.5s;
 
 }
 
