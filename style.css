@@ -14,18 +14,36 @@ body{
   background-size: cover;
 }
 
-header{
+/* header{
    display: flex;
     justify-content: center; 
 font-family: 'Bagel Fat One', cursive;
-font-size: 250px;
+font-size: 270px;
  
     color: var(--white);
     -webkit-text-stroke: 5.5px black; 
     letter-spacing: -0.03em;
 
     z-index: 10;
-}
+
+} */
+header{
+
+    position: fixed;
+    top: -25%;
+    left: 5%;
+    transform: translate(-5%, 25%);
+
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 270px;
+
+    color: var(--white);
+    -webkit-text-stroke: 5.5px black; 
+    letter-spacing: -0.03em;
+
+    z-index: 10;
+ 
+ }
 
 header:hover{
 
@@ -39,7 +57,10 @@ header:hover{
 .frame{
     display: flex;
     justify-content: center;
- 
+
+}
+#frame-wrapper{
+    padding-top: 28%;
 }
 .push{
     position: absolute;
@@ -52,4 +73,11 @@ background-image: url(push.png);
 background-size: cover;
 background-color: #ffffff00;
 border-style: none;
+}
+
+.duck{
+    position: absolute;
+    transform: translateY(-750px);
+    padding-left: 5%;
+    z-index: 200;
 }
