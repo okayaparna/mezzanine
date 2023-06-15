@@ -8,6 +8,12 @@ font-family: 'Bagel Fat One', cursive;
     --black: black;
     --yellow: #FFE500;
     --pink: #FF00B8;
+    --red: #FF0000;
+    --green: #80FF00;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 body{
@@ -81,7 +87,15 @@ border-style: none;
     font-size: 50px;
     border-radius: 100px;
     padding: 5%;
-                                                
+    background-color: #80ff0000;  
+    border-style:solid;
+    border-color: #00000000;   
+    width: 180px;
+    height: 180px;
+    background-image: url(keep.png);
+    background-size: cover;
+    color:#00000000;
+                                      
 }
 
 #throw-style{
@@ -89,8 +103,16 @@ border-style: none;
     font-size: 50px;
     border-radius: 100px;
     padding: 5%;
-    background-color: #aeff0095;                                          
+    background-color: #80ff0000;  
+    border-style:solid;
+    border-color: #00000000;   
+    width: 180px;
+    height: 180px;
+    background-image: url(throw.png);
+    background-size: cover;
+    color:#00000000;                                      
 }
+
 .options{
 display: flex;
 justify-content: center;
@@ -99,5 +121,6 @@ gap: 10%;
 }
 
 #options-wrapper{
-    margin-top: -10%;
+ margin-top: -15%;
 }
+
